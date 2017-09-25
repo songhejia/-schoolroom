@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>学习课堂</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            margin: 0 auto;
+            width: 90%;
+        }
+
+        pre {
+            font-family: "Courier New", Courier, monospace;
+            white-space: pre-line;
+        }
+
+        .kt-result {
+            margin-left: 4em;
+            font-size: 14px;
+            font-family: 微软雅黑
+        }
+
+        .shj-single-row-ellipsis {
+            width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .shj-mutil-row-ellipsis {
+            width: 300px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kt-title">
+        <h1>CSS篇</h1>
+    </div>
+    <div class="kt-body">
+        <div class="kt-item">
+            <h3>1、CSS控制文本，超出部分显示省略号（单行）</h3>
+            <div class="kt-result">
+                <div>
+                    <pre>
+            width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+                    </pre>
+                </div>
+
+                <div>
+                    <p class="shj-single-row-ellipsis">CSS控制文本，超出部分显示省略号CSS控制文本，超出部分显示省略号CSS控制文本，超出部分显示省略号CSS控制文本，超出部分显示省略号</p>
+                </div>
+            </div>
+        </div>
+        <div class="kt-item">
+            <h3>2、CSS控制文本，超出部分显示省略号（多行） webkit浏览器及移动端</h3>
+            <div class="kt-result">
+                <div>
+                    <pre>
+            width: 300px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+                    </pre>
+                </div>
+
+                <div>
+                    <p class="shj-mutil-row-ellipsis">CSS控制文本，超出部分显示省略号CSS控制文本，超出部分显示省略号CSS控制文本，超出部分显示省略号CSS控制文本，超出部分显示省略号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
