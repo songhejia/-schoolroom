@@ -77,6 +77,28 @@
             border-image: url(image/border-img.png) 166 round;
             /* -webkit-border-image: url(image/border-img.png) 166 round; */
         }
+
+        .shj-background-size {
+            width: 200px;
+            height: 200px;
+            background-image: url(image/border-img.png);
+            background-repeat: no-repeat;
+            background-size: 200px 200px;
+            background-color: #ccc;
+        }
+
+        .shj-background-origin {
+            width: 200px;
+            height: 200px;
+            background-image: url(image/border-img.png);
+            background-repeat: no-repeat;
+            background-size: 200px 200px;
+            background-color: #ccc;
+            background-origin: content-box;
+            padding: 50px;
+            margin: 50px;
+            border: 1px solid #000;
+        }
     </style>
 </head>
 
@@ -204,6 +226,46 @@
 
                 <div>
                     <div class="shj-border-image">边框图片</div>
+                </div>
+            </div>
+        </div>
+        <div class="kt-item">
+            <h3>8、background-size调整背景图片的大小</h3>
+            <div class="kt-result">
+                <div>
+                    <pre>
+            width: 200px;
+            height: 200px;
+            background-image: url(image/border-img.png);
+            background-repeat: no-repeat;
+            background-size: 200px 200px;
+            background-color: #ccc;
+                    </pre>
+                </div>
+                <div>
+                    <div class="shj-background-size"></div>
+                </div>
+            </div>
+        </div>
+        <div class="kt-item">
+            <h3>9、background-origin背景图片的定位区域</h3>
+            <div class="kt-result">
+                <div>
+                    <pre>
+            width: 200px;
+            height: 200px;
+            background-image: url(image/border-img.png);
+            background-repeat: no-repeat;
+            background-size: 200px 200px;
+            background-color: #ccc;
+            background-origin: content-box;
+            padding: 50px;
+            margin: 50px;
+            border: 1px solid #000;
+                    </pre>
+                </div>
+                <div>
+                    <div class="shj-background-origin"></div>
                 </div>
             </div>
         </div>
