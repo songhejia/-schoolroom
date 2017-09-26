@@ -50,6 +50,33 @@
         .shj-mutil-row-ellipsis-common::after {
             content: '...'
         }
+
+        .shj-border-radius {
+            border-radius: 20px;
+            width: 150px;
+            background-color: #ccc;
+        }
+
+        .shj-box-shadow {
+            box-shadow: 10px 10px 5px #888888;
+            width: 150px;
+            background-color: #2a2;
+            height: 80px;
+        }
+
+        .shj-border-image {
+            /* border-image: url(https://avatars2.githubusercontent.com/u/11451712?v=4&s=460) 30 30 30 30 round; */
+            /* -webkit-border-image: url(http://jbcdn2.b0.upaiyun.com/2016/11/aae79598f61ff2f5323a334216cc2d49.jpg) 30 30 30 30 round; */
+            /* Safari 和 Chrome */
+            /* border: 30px solid transparent; */
+            /*先设置边框*/
+            border: 50px solid rgba(0, 0, 0, .1);
+            height: 200px;
+            width: 200px;
+            background: #ccc;
+            border-image: url(image/border-img.png) 166 round;
+            /* -webkit-border-image: url(image/border-img.png) 166 round; */
+        }
     </style>
 </head>
 
@@ -129,6 +156,60 @@
                 </div>
             </div>
         </div>
+        <div class="kt-item">
+            <h3>5、border-radius</h3>
+            <div class="kt-result">
+                <div>
+                    <pre>
+            border-radius: 20px;
+            width: 150px;
+            background-color: #ccc;
+                    </pre>
+                </div>
+
+                <div>
+                    <div class="shj-border-radius">我是圆角边框哦</div>
+                </div>
+            </div>
+        </div>
+        <div class="kt-item">
+            <h3>6、box-shadow边框阴影</h3>
+            <div class="kt-result">
+                <div>
+                    <pre>
+            box-shadow: 10px 10px 5px #888888;
+            width: 150px;
+            background-color: #2a2;
+            height: 80px;
+                    </pre>
+                </div>
+
+                <div>
+                    <div class="shj-box-shadow">边框阴影</div>
+                </div>
+            </div>
+        </div>
+        <div class="kt-item">
+            <h3>7、border-image边框图片</h3>
+            <div class="kt-result">
+                <div>
+                    <pre>
+            border-radius: 20px;
+            width: 150px;
+            background-color: #ccc;
+                    </pre>
+                </div>
+
+                <div>
+                    <div class="shj-border-image">边框图片</div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
         <div class="kt-title">
             <h1>JavaScript篇</h1>
         </div>
