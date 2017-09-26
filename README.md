@@ -3,4 +3,4 @@
 
 预览
 
-https://raw.githack.com/songhejia/schoolroom/master/css.html
+https://rawcdn.githack.com/songhejia/schoolroom/master/index.html
